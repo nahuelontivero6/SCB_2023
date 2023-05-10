@@ -3,7 +3,7 @@
 #include <Servo.h>
 Servo motorServo;
 
-int pos = 80; //Con este valor de pos obtengo un angulo aproximado a 65° en el Proteus
+int pos = 72; //Con este valor de pos obtengo un angulo aproximado a 65° en el Proteus
 
 void setup() {
   motorServo.attach(9);

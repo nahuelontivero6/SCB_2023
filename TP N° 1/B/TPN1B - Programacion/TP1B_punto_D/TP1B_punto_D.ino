@@ -8,7 +8,6 @@ int velocidad = 15;
 
 void setup() {
   motorServo.attach(9);
-  pinMode(A0,INPUT);
 }
 
 void loop() {
