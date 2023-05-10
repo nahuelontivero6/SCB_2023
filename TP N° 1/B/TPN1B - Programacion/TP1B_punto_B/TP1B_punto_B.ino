@@ -24,6 +24,5 @@ void loop() {
     motorServo.write(pos);
     delay(10);
   }
-  delay(1000);
 }
 

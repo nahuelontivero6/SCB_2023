@@ -13,7 +13,6 @@ void setup() {
 
 void loop() {
   pos = analogRead(A0);
-  //Sentido antihorario
   z = map(pos, 1, 1023, 1, 180);
   motorServo.write(z);
   delay(15);
